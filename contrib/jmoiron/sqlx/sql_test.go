@@ -15,9 +15,9 @@ import (
 	"gopkg.in/DataDog/dd-trace-go.v1/contrib/internal/sqltest"
 	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
 
-	mssql "github.com/denisenkom/go-mssqldb"
 	"github.com/go-sql-driver/mysql"
 	"github.com/lib/pq"
+	mssql "github.com/microsoft/go-mssqldb"
 )
 
 // tableName holds the SQL table that these tests will be run against. It must be unique cross-repo.

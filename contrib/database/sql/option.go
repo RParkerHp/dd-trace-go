@@ -81,7 +81,6 @@ func dbmFullModeUnsupported(driverName string, driver driver.Driver, dsn string)
 			pkgPath = tp.PkgPath()
 		}
 		driverPkgs := [][3]string{
-			{"github.com", "denisenkom/go-mssqldb", sqlServer},
 			{"github.com", "microsoft/go-mssqldb", sqlServer},
 			{"github.com", "sijms/go-ora", oracle},
 		}
